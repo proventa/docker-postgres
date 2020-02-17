@@ -1,4 +1,5 @@
 -- Configure postgresql.conf
+ALTER SYSTEM SET listen_addresses='*';
 
 -- Logging
 ALTER SYSTEM SET log_destination = 'stderr';
