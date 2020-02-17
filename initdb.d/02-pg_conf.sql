@@ -1,6 +1,9 @@
 -- Configure postgresql.conf
 ALTER SYSTEM SET listen_addresses='*';
 
+-- Performance
+ALTER SYSTEM SET shared_buffers = '128MB';
+
 -- Logging
 ALTER SYSTEM SET log_destination = 'stderr';
 ALTER SYSTEM SET logging_collector = 'on';
