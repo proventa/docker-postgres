@@ -15,18 +15,18 @@ PostgreSQL Environment variables you can find on the official [dockerhub](https:
 ## PostgreSQL instance
 
 1. git clone https://github.com/proventa/docker-postgres.git
-1. start postgres instance
+1. Start postgres instance
 * `docker-compose up`
-3. show running containers
+3. Show running containers
 * `docker container ls`
-4. connect to postgres container
+4. Connect to postgres container
 * `docker exec -it pg bash`
-5. connect with psql client
+5. Connect with psql client (required psql installation on Host-System)
 * `psql -h 0.0.0.0 -p 5432 -d postgres -U postgres`
 
 ### pgadmin4
 
-* open local pgadmin4 in browser
+* Open local pgadmin4 in browser
   * http://localhost:80
-* login with credentials from `docker-compose.yml`
-* add postgres container to servers
+* Login with credentials from `docker-compose.yml`
+* Add postgres container to servers
