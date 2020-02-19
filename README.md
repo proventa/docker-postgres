@@ -22,7 +22,7 @@ PostgreSQL Environment variables you can find on the official [dockerhub](https:
 4. Connect to postgres container
 * `docker exec -it pg bash`
 5. Connect with psql client (required psql installation on Host-System)
-* `psql -h 0.0.0.0 -p 5432 -d postgres -U postgres`
+* `psql -h localhost -p 5432 -d postgres -U postgres`
 
 ### pgadmin4
 
