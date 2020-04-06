@@ -19,7 +19,6 @@ ALTER SYSTEM SET log_rotation_age= '1d';
 ALTER SYSTEM SET log_rotation_size= '0';
 ALTER SYSTEM SET log_duration= 'on';
 ALTER SYSTEM SET log_line_prefix='%m [%p] ';
-ALTER SYSTEM SET log_statement_stats='on';
 ALTER SYSTEM SET log_statement='all';
 ALTER SYSTEM SET log_hostname='on';
 ALTER SYSTEM SET log_error_verbosity='default';
