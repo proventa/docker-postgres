@@ -22,3 +22,4 @@ ALTER SYSTEM SET log_line_prefix='%m [%p] ';
 ALTER SYSTEM SET log_statement='all';
 ALTER SYSTEM SET log_hostname='on';
 ALTER SYSTEM SET log_error_verbosity='default';
+ALTER SYSTEM SET log_line_prefix = '%m [%p] %q%u@%d/%a ;
